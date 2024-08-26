@@ -1,0 +1,15 @@
+//buttons
+
+.primary-button {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    @include position(absolute, $left: 50%);
+    transform: translateX(-50%);
+    padding: $padding-8 $padding-24;
+    border: none;
+    border-radius: $radius-20;
+    text-align: center;
+
+    &:hover {
+        color: #ffffff55;
+    }
+}

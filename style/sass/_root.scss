@@ -1,0 +1,28 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width:991px) {
+    body {
+        font-size: 14px;
+    }
+}
